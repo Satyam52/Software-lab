@@ -1,0 +1,29 @@
+You are given a C file as stdin input and you want to rename all instances of a given variable “abc” with another variable name “efg” (in that file). Write a script to do this, using sed. It should not replace instances where "abc" appears as a substring. Also your script should be able to handle cases like “&abc” / “*abc” and it should be changed to “&efg” / “*efg”. Your script should take the old variable name, new variable name and C file name as arguments.
+Suppose you want to replace the variable name “a” by new name “e” and the sample input C file was :
+       
+       #include<stdio.h>
+       int main() {    
+           int a, b, addition;
+           printf("Enter two a integers: ");
+           scanf("%d %d", &a, &b);
+           addition = a + b;      
+           printf("%d + %d = %d", a, b, addition);
+           return 0;
+       }
+       
+       Then after executing the script the C file should look like -
+       
+       #include<stdio.h>
+       int main() {    
+           int e, b, addition;
+           printf("Enter two e integers: ");
+           scanf("%d %d", &e, &b);
+           addition = e + b;      
+           printf("%d + %d = %d", e, b, addition);
+           return 0;
+       }
+       
+	Usage: ./change-var.sh old_var_name new_var_name c_file
+       
+
+

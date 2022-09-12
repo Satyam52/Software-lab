@@ -1,0 +1,3 @@
+pig:oink
+cow:moo
+dog:bow
