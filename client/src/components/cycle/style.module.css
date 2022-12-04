@@ -1,0 +1,53 @@
+.container {
+  margin: 0 10vw 0 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.imageCard {
+  width: 40vw;
+}
+
+.bidCard {
+  width: 40vw;
+  margin: 10px 0 0 20px;
+}
+
+.priceCard {
+  padding: 10px;
+  margin: 15px 0 15px 0;
+}
+.priceTag {
+  font-size: 30px !important;
+  display: flex;
+  align-items: center;
+}
+.button {
+  margin: 10px !important;
+  height: 50px;
+  width: 100%;
+}
+.slideCard{
+  height: 600px !important;
+}
+
+.modalContainer{ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 2px;
+}
+.button1 {
+  margin: 10px !important;
+  left: 50%;
+  transform: translate(-50%, 0);
+  /* height: 50px;
+  width: 100%; */
+}

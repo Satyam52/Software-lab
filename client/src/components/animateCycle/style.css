@@ -1,0 +1,29 @@
+.mainCycle{
+    display: grid;
+    place-items: center;
+    /* min-height: 100vh; */
+    /* min-width: 100vw; */
+    /* position: relative; */
+    background: transparent;
+    position: absolute;
+    z-index: 2;
+    /* top: 4rem;
+    left:0.4rem; */
+}
+#anchor{
+    height: 14rem;
+}
+#wheels, #wheels img{
+    position: absolute;
+}
+.wheel{
+    height:9.5rem;
+    width: auto;
+    
+}
+
+.mainCycle:hover{
+    z-index: 2;
+}
+
+
