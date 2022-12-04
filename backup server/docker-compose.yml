@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  saitama:
+    image: postgres:13
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: deku
+      POSTGRES_PASSWORD: almight
+      POSTGRES_DB: saitama
+    networks:
+      - iitb
+networks:
+  iitb:
