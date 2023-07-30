@@ -1,8 +1,0 @@
-awk F, '{print $1}' -> Field separator comma
-awk F, '/Mariane/ {print $1}' -> print only when regex matched
-awk F, '($1>10000) {print $1}' -> with conditions
-awk F, '/Mariane/ {num++;} END {print num}' -> it will print at the last Mariane occurance
-awk 'BEGIN {FS=","} /Mariane/ {num++;} END {print num}' -> Field separator inside awk
-awk -F, '{if($3 ~ /Mariane/) {M++} else if($3 ~ /Nile/){N++} else {B++}} END {print B,N,M}' < file
-awk F, '{Grp[$3]++} END {for(g in Grp) print g, Grp[g]}' < file -> Hashtable/dict/associative array
-awk F, '{for(i=1;i<NF;i++) {printf("%d:%s\t",i,$i);} printf("\n"); }' < file -> Normal array

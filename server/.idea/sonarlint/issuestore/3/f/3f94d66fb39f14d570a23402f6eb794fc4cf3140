@@ -1,0 +1,9 @@
+
+;python:S125"Remove this commented out code.(Åóè†øÿÿÿÿ
+6python:S125"Remove this commented out code.(„ãÖõ
+vpython:S117("ZRename this local variable "basePrice" to match the regular expression ^[_a-z][a-z0-9_]*$.(†ö¨ıÿÿÿÿ
+xpython:S117+"\Rename this local variable "bidDeadline" to match the regular expression ^[_a-z][a-z0-9_]*$.(à¨®×ÿÿÿÿÿ
+xpython:S117)"\Rename this local variable "buyOutPrice" to match the regular expression ^[_a-z][a-z0-9_]*$.(şßÏâüÿÿÿÿ
+Opython:S1481%"2Remove the unused local variable "parser_classes".(ÔªÚûüÿÿÿÿ
+Fpython:S14819")Remove the unused local variable "cycle".(ˆ»Ì¬ùÿÿÿÿ
+qpython:S1186Q"YAdd a nested comment explaining why this method is empty, or complete the implementation.(­´¼
